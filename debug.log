@@ -1,0 +1,82 @@
+2025-01-04 07:51:20: Script started
+2025-01-04 07:51:20: Received data: {"message":"hi how are you"}
+2025-01-04 07:51:20: Curated response sent
+2025-01-04 07:56:06: Script started
+2025-01-04 07:56:06: Received data: {"message":"hi how are you"}
+2025-01-04 07:56:06: Curated response sent
+2025-01-04 07:56:11: Script started
+2025-01-04 07:56:11: Received data: {"message":"whatsup"}
+2025-01-04 07:56:15: Raw API Response: {"error":"Model facebook/blenderbot-400M-distill is currently loading","estimated_time":29.19023895263672}
+2025-01-04 07:56:15: Error: Model is warming up. Please try again later.
+2025-01-04 07:56:20: Script started
+2025-01-04 07:56:20: Received data: {"message":"alright that is okay"}
+2025-01-04 07:56:23: Raw API Response: {"error":"Service Unavailable"}
+2025-01-04 07:56:23: Error: API returned HTTP code 503
+2025-01-04 09:06:50: Script started
+2025-01-04 09:06:50: Received data: {"message":"hi how are you"}
+2025-01-04 09:06:50: Curated response sent
+2025-01-04 09:13:29: Script started
+2025-01-04 09:13:29: Received data: {"message":"hello how are you"}
+2025-01-04 09:13:29: Curated response sent
+2025-01-04 10:08:45: Script started
+2025-01-04 10:08:45: Received data: {"message":"hi how are you"}
+2025-01-04 10:08:45: Curated response sent
+2025-01-04 10:50:18: Script started
+2025-01-04 10:50:18: Received data: {"message":"hi how are you"}
+2025-01-04 10:50:18: Curated response sent
+2025-01-04 11:04:17: Script started
+2025-01-04 11:04:17: Received data: {"message":"hi how are you"}
+2025-01-04 11:04:17: Curated response sent
+2025-01-04 11:04:19: Script started
+2025-01-04 11:04:19: Received data: {"message":"whats up"}
+2025-01-04 11:04:21: Raw API Response: {"error":"Model facebook/blenderbot-400M-distill is currently loading","estimated_time":29.19023895263672}
+2025-01-04 11:04:21: Error: Model is warming up. Please try again later.
+2025-01-04 11:05:51: Script started
+2025-01-04 11:05:51: Received data: {"message":"hi how are you"}
+2025-01-04 11:05:51: Curated response sent
+2025-01-04 11:10:05: Script started
+2025-01-04 11:10:05: Received data: {"message":"hi how are you today"}
+2025-01-04 11:10:05: Curated response sent
+2025-01-04 11:12:06: Script started
+2025-01-04 11:12:06: Received data: {"message":"hi how are you"}
+2025-01-04 11:12:06: Curated response sent
+2025-01-04 11:12:08: Script started
+2025-01-04 11:12:08: Received data: {"message":"yey"}
+2025-01-04 11:12:12: Raw API Response: [{"generated_text":" Thank you for the compliment. I try to be as helpful as I can be."}]
+2025-01-04 11:48:01: Script started
+2025-01-04 11:48:01: Received data: {"message":"hi how are you"}
+2025-01-04 11:48:01: Curated response sent
+2025-01-04 12:20:21: Script started
+2025-01-04 12:20:21: Received data: {"message":"hi how are you"}
+2025-01-04 12:20:21: Curated response sent
+2025-01-04 12:20:39: Script started
+2025-01-04 12:20:39: Received data: {"message":"what is your mission"}
+2025-01-04 12:20:39: Curated response sent
+2025-01-04 12:22:32: Script started
+2025-01-04 12:22:32: Received data: {"message":"sign language"}
+2025-01-04 12:22:32: Curated response sent
+2025-01-04 12:22:40: Script started
+2025-01-04 12:22:40: Received data: {"message":"can you find any sign language interpreters near me"}
+2025-01-04 12:22:40: Curated response sent
+2025-01-04 12:29:13: Script started
+2025-01-04 12:29:13: Received data: {"message":"hi how are you"}
+2025-01-04 12:29:13: Curated response sent
+2025-01-19 20:50:36: Script started
+2025-01-19 20:50:36: Received data: {"message":"Hello."}
+2025-01-19 20:50:36: Curated response sent
+2025-01-19 20:50:50: Script started
+2025-01-19 20:50:50: Received data: {"message":"Hi. Hi."}
+2025-01-19 20:50:50: Curated response sent
+2025-01-19 20:52:15: Script started
+2025-01-19 20:52:15: Received data: {"message":"Tell me about your platform."}
+2025-01-19 20:52:24: Script started
+2025-01-19 20:52:24: Received data: {"message":"Asha Jaitan."}
+2025-01-26 03:44:28: Script started
+2025-01-26 03:44:28: Received data: {"message":"hi"}
+2025-01-26 03:44:28: Curated response sent
+2025-01-26 03:44:38: Script started
+2025-01-26 03:44:38: Received data: {"message":"I need sign language assistance"}
+2025-01-26 03:44:41: Raw API Response: {"object":"chat.completion","id":"","created":1737859482,"model":"mistralai/Mistral-7B-Instruct-v0.2","system_fingerprint":"3.0.1-sha-bb9095a","choices":[{"index":0,"message":{"role":"assistant","content":" At TogetherA+, we prioritize accessibility and inclusivity for all users. For sign language assistance, you can connect with a helper through our task matching feature. Helpers who are proficient in sign language will be identified and matched with you based on your location and availability. Once connected, they can provide sign language assistance for various tasks or activities. If you have any further questions or if a sign language helper is not immediately available, please visit our resources tab for additional options or use our \"Ask for Resources\" section to request specific sign language resources."},"logprobs":null,"finish_reason":"stop"}],"usage":{"prompt_tokens":253,"completion_tokens":116,"total_tokens":369}}
+2025-01-26 13:45:20: Script started
+2025-01-26 13:45:20: Received data: {"message":"hi"}
+2025-01-26 13:45:20: Curated response sent

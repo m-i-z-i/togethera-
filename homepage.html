@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TogetherA+ - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="chatbot.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="TogetherA+">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.php">About Us</a></li>
+                <li><a href="task_posting.php">Tasks</a></li>
+                <li><a href="progress_page.php">Running Jobs</a></li>
+                <li><a href="list_resources.php">Resources</a></li>
+                <li><a href="edit_user_profile.php">Profile</a></li>
+                <li><a href="trusted_contacts.php">Trusted Contacts</a></li>
+                <li><a href="logout.php">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to TogetherA+</h1>
+            <p>Empowering individuals with disabilities by connecting them to helpers and resources.</p>
+            <button class="cta-button">Learn More</button>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Our Services</h2>
+        <div class="feature-grid">
+            <!-- Feature 1 -->
+            <a href="user_posted_jobs.php" class="feature-item" style="text-decoration: none;">
+                <img src="img/task1.png" alt="Task Matching" class="feature-image" />
+                <h3 class="feature-title">Task Matching</h3>
+                <div class="feature-hover-text">Finding the best helpers for your specific needs</div>
+            </a>
+            <!-- Feature 2 -->
+            <a href="list_resources.php" class="feature-item" style="text-decoration: none;">
+                <img src="img/resource1.png" alt="Resource Repository" class="feature-image" />
+                <h3 class="feature-title">Resource Repository</h3>
+                <div class="feature-hover-text">Resources that will help you in your day-to-day life</div>
+            </a>
+            <!-- Feature 3 -->
+            <a href="trusted_contacts.php" class="feature-item" style="text-decoration: none;">
+                <img src="img/trust1.png" alt="Trusted Contacts" class="feature-image" />
+                <h3 class="feature-title">Trusted Contacts</h3>
+                <div class="feature-hover-text">Trusted Contacts for your health and safety</div>
+            </a>
+            <!-- Feature 4 -->
+            <a href="chatbot.php" class="feature-item" style="text-decoration: none;">
+                <img src="img/access1.png" alt="Accessibility Options" class="feature-image" />
+                <h3 class="feature-title">Accessibility Options</h3>
+                <div class="feature-hover-text">Text-to-Speech and Speech-to-Text</div>
+            </a>
+            <!-- Feature 5 -->
+            <a href="payment.php" class="feature-item" style="text-decoration: none;">
+                <img src="img/payment1.png" alt="Safe Payments" class="feature-image" />
+                <h3 class="feature-title">Safe Payments</h3>
+                <div class="feature-hover-text">Safe and Secure with SSLCommerz</div>
+            </a>
+        </div>
+    </section>
+
+
+    <section class="top-helpers">
+        <h2>Recommend Helpers</h2>
+        <p>Find the most suitable helpers for your needs based on skills, availability, and location.</p>
+        <button class="cta2-button" onclick="window.location.href='recommend_helpers.php';">View Recommended
+            Helpers</button>
+    </section>
+
+    <section class="helper-info">
+        <div class="helper-background">
+            <h2>Looking for Helpers?</h2>
+            <p>We got you covered:</p>
+            <div class="helper-options">
+                <div class="option-item">
+                    <h3>Post Your Task</h3>
+                    <p>You can start by posting your own task for helpers to apply.</p>
+                    <a href="task_posting.php" class="helper-button">Post Task</a>
+                </div>
+                <div class="option-item">
+                    <h3>Available Helpers</h3>
+                    <p>Browse through a list of available helpers in your area.</p>
+                    <a href="available_helpers.php" class="helper-button">Find Helpers</a>
+                </div>
+                <div class="option-item">
+                    <h3>Specialists Near You</h3>
+                    <p>View specialists near your location to assist with specific needs.</p>
+                    <a href="map.html" class="helper-button">View Specialists</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Intro Section (Moved to Bottom) -->
+    <section class="intro">
+        <div class="intro-container">
+            <div class="intro-left">
+                <img src="img/biglogo.png" alt="TogetherA+ Illustration">
+            </div>
+            <div class="intro-right">
+                <h2>About TogetherA+</h2>
+                <p>
+                    TogetherA+ is a platform designed to empower individuals with disabilities by providing access
+                    to a wide network of helpers, resources, and tools tailored to their unique needs. Our mission
+                    is to foster independence, dignity, and inclusivity for everyone.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chatbot Section -->
+    <div id="chatbot-container">
+        <button id="chatbot-toggle" title="Chat with us" aria-label="Toggle Chatbot" aria-expanded="false">💬</button>
+        <div id="chatbot-bubble" class="hidden" role="dialog" aria-labelledby="chatbot-title">
+            <div class="chatbot-header">
+                <h3 id="chatbot-title">TogetherA+ Chatbot</h3>
+                <button id="close-chatbot" aria-label="Close Chatbot">✖</button>
+            </div>
+            <iframe src="chatbot.php" frameborder="0" title="Chatbot Interface"></iframe>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TogetherA+. All rights reserved.</p>
+    </footer>
+
+    <script src="chatbot-toggle.js"></script>
+</body>
+
+</html>
